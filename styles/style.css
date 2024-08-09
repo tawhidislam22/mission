@@ -6,7 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     max-width: 1440px;
-    background-color:  rgb(229, 229, 229);;
+    /* background-color:  rgb(229, 229, 229); */
 }
 #btn-primary{
     padding: .5rem 1.25rem;
@@ -27,8 +27,8 @@
     display: flex;
     justify-content: space-around;
     align-items:flex-end;
-    margin: 2rem 4rem;
-    
+    margin: 2rem;
+    margin-bottom: 2rem;
 }
 .banner-content{
     width: 40%; 
@@ -57,3 +57,47 @@
 .banner-image img{
     width: 100%;
 }
+/* banner section ends here */
+
+/* mission section starts here */
+.mission{
+    margin: 2rem 5.5rem;
+}
+.mission h1{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.card{
+    border-radius: 26px;
+    margin-top: 2rem;
+    padding: .75rem 1rem 1.5rem 1rem;
+}
+.card-image{
+    width: 32%;
+}
+.card-image img{
+    width: 100%;
+}
+.card h2{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: .75rem;
+}
+.card p{
+    color: rgb(66, 66, 66);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+/* mission section starts here */
