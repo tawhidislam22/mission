@@ -257,3 +257,42 @@
         font-weight: 400;
     }
 /* footer section ends here */
+
+/* responsive style starts here */
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .card-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .develop-container{
+        flex-direction: column;
+    }
+    .develop-image{
+        width: 95%;
+    }
+    .develop-content{
+        width: 100%;
+        text-align: center;
+    }
+    .build-container{
+        flex-direction: column;
+    }
+    .build-content{
+        width: 100%;
+        text-align: center;
+    }
+    .build-image{
+        width: 90%;
+    }
+
+}
+/* responsive style ends here */
