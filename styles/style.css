@@ -100,4 +100,52 @@
     font-weight: 400;
     margin-top: 1rem;
 }
-/* mission section starts here */
+/* mission section ends here */
+
+/* develop section starts here */
+.develop-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5.5rem;
+}
+.develop-image{
+    width: 35%;
+    position: relative;
+}
+.develop-image1{
+    width: 100%;
+    z-index: 1;
+    
+}
+.develop-image1 img{
+    width: 100%;
+}
+.develop-image2{
+    width: 45%;
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: -18%;
+}
+.develop-image2 img{
+    width: 100%;
+}
+.develop-content{
+    width: 55%;
+}
+.develop-content h1{
+    color: rgb(51, 51, 51);
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.develop-content p{
+    color: rgb(62, 62, 62);
+    font-family: Poppins;
+    font-size: 1.15;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* develop section ends here */
