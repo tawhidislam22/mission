@@ -107,7 +107,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 5.5rem;
+    margin: 3rem 5.5rem;
+    margin-top: 5rem;
 }
 .develop-image{
     width: 35%;
@@ -129,6 +130,16 @@
     left: -18%;
 }
 .develop-image2 img{
+    width: 100%;
+}
+.develop-image3{
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    bottom: -18%;
+    right: -18%;
+}
+.develop-image3 img{
     width: 100%;
 }
 .develop-content{
