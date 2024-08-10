@@ -160,3 +160,78 @@
     margin-bottom: 1.5rem;
 }
 /* develop section ends here */
+/* build section starts here */
+#build-heading{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700; 
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.build-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5.5rem;   
+    gap: 6rem;
+}
+.build-image{
+    width: 30%;
+    position: relative;
+}
+.build-image1{
+    width: 100%;
+}
+.build-image1 img{
+    width: 100%;
+}
+.build-image2{
+    width: 40%;
+    position: absolute;
+    top: -5%;
+    left: -10%;
+    z-index: -1;
+}
+.build-image2 img{
+    width: 100%;
+}
+.build-image3{
+    width: 20%;
+    position: absolute;
+    z-index: -1;
+    right: -1%;
+    bottom: 26%;
+}
+.build-image3 img{
+    width: 100%;
+}
+.build-image4{
+    width: 20%;
+    position: absolute;
+    z-index: -1;
+    bottom: 3%;
+}
+.build-image4 img{
+    width: 100%;
+}
+.build-content{
+    width: 40%;
+}
+.build-content h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.build-content p{
+    color: rgb(62, 62, 62);
+    font-family: Poppins;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* build section ends here */
