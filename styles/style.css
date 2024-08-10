@@ -270,28 +270,35 @@
     .banner-image{
         width: 100%;
     }
+    .mission{
+        margin: 2rem 2rem;
+    }
     .card-box{
         grid-template-columns: repeat(1,1fr);
     }
     .develop-container{
         flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
     }
     .develop-image{
-        width: 95%;
+        width: 72%;
+        margin-bottom: 1rem;
     }
     .develop-content{
         width: 100%;
         text-align: center;
+        margin-bottom: 1.5rem;
     }
     .build-container{
         flex-direction: column;
+        margin: 0 auto;
     }
     .build-content{
         width: 100%;
         text-align: center;
     }
     .build-image{
-        width: 90%;
+        width: 80%;
     }
 
 }
